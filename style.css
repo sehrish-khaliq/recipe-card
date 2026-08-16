@@ -1,0 +1,64 @@
+body{
+background-image:linear-gradient #ffbf9a;
+width: 600px;
+height: 960;
+background-repeat: no-repeat;
+
+}
+
+
+.container{
+width: 500px;
+height: 900px;
+background-color: bisque;
+margin-right: -1400px;
+box-shadow: 0px 10px 20px gray;
+}
+.image{
+   background-image:url(./stevepb-ice-cream-2987955.jpg);  
+   height: 400px;   
+   width: 510px;    
+   background-repeat: no-repeat;  
+   background-size: contain;
+}
+.image:hover{
+background-image: url(./istockphoto-1782588762-1024x1024.jpg);
+}
+.heading1{
+color: white;
+font-family: 'Courier New', Courier, monospace;
+}
+.heading2{
+color: #461b03;
+margin-top: 30px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.icons{
+display: flex;
+margin-top: 30px;
+justify-content: space-evenly;
+}
+.num{
+font-family: 'Courier New', Courier, monospace;
+font-weight: bold;
+color: #461b03;
+}
+.item{
+color: #461b03;font-family: Arial, Helvetica, sans-serif;
+}
+button{
+width: 350px;
+height: 50px;
+border: none;
+background-color: #692703; 
+color: white;
+font-family: 'Courier New', Courier, monospace;
+font-weight: bold;
+font-size: 30px;
+border-radius: 10px;
+}
+.button:hover{
+background-color: rgb(108, 129, 139);
+color: black;
+border: double rgb(100, 26, 4);
+}
